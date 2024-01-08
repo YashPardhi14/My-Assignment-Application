@@ -1,0 +1,36 @@
+.container{
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+    border: 1px solid black;
+    padding:5px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px  grey;
+    margin-left: 40px;
+    margin-right: 40px;
+  
+    z-index: 1;
+    margin-bottom: 50px;
+    }
+    
+    
+    p{
+        margin:10px
+    }
+    
+    .line-1{
+        display: inline-block;
+        overflow: hidden;
+        border-right: 1px solid #000;
+        white-space: nowrap; /* Prevent text from wrapping */
+        animation: typewriter 10s steps(50) forwards ;   
+    }
+    
+      @keyframes typewriter {
+        from { width: 0; }
+        to { width: 100%; }
+      }
+      /* @keyframes blinkTextCursor{
+        from{border-right-color: rgba(255,255,255,.75);}
+        to{border-right-color: transparent;}
+      } */

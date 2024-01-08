@@ -1,0 +1,32 @@
+<!-- <div class="AContainer">
+
+    <h1>A component Parent</h1> 
+   
+    <input (change)="boxValue($event)" placeholder="Enter here"/>
+       <br>
+       <br>
+       <button (click)="sendToChild()">Send To Child B</button>
+   
+       <h2>Message from the Child : {{childMsg}}</h2>
+   <app-b-child [parentMSG]="sendMsg()" (childEmitEvent)="getChildMsg($event)"></app-b-child>
+      
+   </div> -->
+
+   <div class="AContainer">
+
+    <h1>A component Parent</h1>
+  
+    <mat-form-field>
+      <input matInput (change)="boxValue($event)" placeholder="Enter here" />
+    </mat-form-field>
+  
+    <br>
+    <br>
+  
+    <button mat-raised-button color="primary" (click)="sendToChild()">Send To Child B</button>
+  
+    <h2>Message from the Child : {{childMsg}}</h2>
+  
+    <app-b-child [parentMSG]="sendMsg()" (childEmitEvent)="getChildMsg($event)"></app-b-child>
+  
+  </div>

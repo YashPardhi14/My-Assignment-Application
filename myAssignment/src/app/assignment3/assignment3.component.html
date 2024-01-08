@@ -1,0 +1,29 @@
+
+<div class="main-container">
+    <div class="gcContainer">
+        <h1>I am GameController</h1>
+        <div class="button-dipslay">
+            <button (click)="startGame()" mat-raised-button color="primary" (click)="startBar()">Start</button>
+        
+            <button (click)="stopGame()" mat-raised-button color="warn"  (click)="stopBar()">Stop</button>
+        </div>
+        
+        <!-- <button (click)="restartGame()">Restart</button> -->
+        
+        <h3>Timer----{{timerRunner}}</h3>
+        <div class="childContainer">
+        
+            <app-even [evenCount]="passEvenCount()">
+        
+            </app-even>
+            
+            <app-odd [oddCount]="passOddCount()"></app-odd>
+        
+        </div>
+        
+        </div>
+
+
+</div>
+
+

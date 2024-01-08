@@ -1,0 +1,10 @@
+.error-img{
+    height: 300px;
+    width: 300px;
+}
+
+.error-container{
+text-align: center;
+justify-content: center;
+background-color: hotpink;
+}

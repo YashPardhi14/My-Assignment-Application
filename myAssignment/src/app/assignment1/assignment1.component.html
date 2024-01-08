@@ -1,0 +1,25 @@
+
+<div class="container">
+    <h1>About Me</h1>
+    <p >
+      Hi there! I'm Yash Pardhi, a passionate and creative individual with a love for technology and innovation. 
+      Currently pursuing my interests in web development, I enjoy creating dynamic and user-friendly applications using 
+      the latest technologies.
+    </p>
+    <p>
+      My journey in the world of programming started with a curiosity to understand how things work behind the scenes. 
+      Over the years, I have gained experience in various technologies, including front-end and back-end development. 
+      I am always eager to learn and explore new concepts to enhance my skills.
+    </p>
+    <p class="line-1 anim-typewriter">
+      When I'm not coding, you can find me exploring the latest trends in technology, reading a good book, or enjoying outdoor activities. 
+      I believe in the power of continuous learning and collaboration to bring ideas to life.
+    </p>
+    <br>
+    <span>    <button mat-raised-button color="primary" (click)="showDetails()" [disabled]="contactButtonDisabled">Contact Me</button></span>
+  
+    
+</div>
+<div class="details-container">
+  <app-contact-details *ngIf="show" (closeEventEmitter)="closeTab()"></app-contact-details>
+</div>

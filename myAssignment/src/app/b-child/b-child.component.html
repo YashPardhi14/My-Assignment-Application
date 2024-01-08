@@ -1,0 +1,17 @@
+<div class="BContainer">
+   <h1>B Component</h1>
+ 
+   
+   <mat-form-field>
+    <mat-label>Input</mat-label>
+    <input matInput (change)="childBox($event)" placeholder="Enter here" >
+  </mat-form-field>
+   <br>
+   <br>
+   <button mat-raised-button color="primary"  (click)="sendToParent()">Send to Parent</button>
+ 
+ 
+   <h2>The message from Parent A is : {{parentMSG}}</h2>
+ </div>
+
+

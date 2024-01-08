@@ -1,0 +1,15 @@
+.details-container{
+  text-align: center;
+    max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  position: relative;
+  margin-bottom: 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.sub-container{
+  border-color: darkmagenta;
+  border-radius: 10px;
+}
