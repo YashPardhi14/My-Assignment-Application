@@ -1,4 +1,4 @@
-.assignment-container{
+/* .assignment-container{
     text-align: center;
     justify-content: center;
     box-shadow: 10px;
@@ -11,4 +11,21 @@
 p {
     font-size: 18px;
     margin: 20px;
+  } */
+  .example-card {
+    max-width: 500px;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 800px;
+    margin-left: 500px;
+    background-color: #c5cae9;
+    margin-bottom: 50px;
+  }
+  
+  .example-header-image {
+    background-image: url('https://downloadr2.apkmirror.com/wp-content/uploads/2018/05/5b0721a3c6b61.png');
+    background-size: cover;
   }
