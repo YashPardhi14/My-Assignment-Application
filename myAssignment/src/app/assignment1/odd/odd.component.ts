@@ -9,5 +9,12 @@ import { Component, Input } from '@angular/core';
 })
 export class OddComponent {
  @Input() oddCount:number=0;
- 
+ @Input() reset:boolean=false;
+
+
+
+
 }
+
+
+

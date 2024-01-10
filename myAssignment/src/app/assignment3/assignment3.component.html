@@ -6,18 +6,18 @@
             <button (click)="startGame()" mat-raised-button color="primary" (click)="startBar()">Start</button>
         
             <button (click)="stopGame()" mat-raised-button color="warn"  (click)="stopBar()">Stop</button>
+
+            <button (click)="resetGame()"  mat-raised-button color="warn" *ngIf="show">Reset</button>
         </div>
-        
-        <!-- <button (click)="restartGame()">Restart</button> -->
         
         <h3>Timer----{{timerRunner}}</h3>
         <div class="childContainer">
         
-            <app-even [evenCount]="passEvenCount()">
+            <app-even [evenCount]="passEvenCount()"  [reset]="resetIndicator">
         
             </app-even>
             
-            <app-odd [oddCount]="passOddCount()"></app-odd>
+            <app-odd [oddCount]="passOddCount()"  [reset]="resetIndicator"></app-odd>
         
         </div>
         

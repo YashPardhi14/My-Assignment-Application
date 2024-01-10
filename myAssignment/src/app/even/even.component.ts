@@ -10,6 +10,8 @@ import { Component, Input } from '@angular/core';
 export class EvenComponent {
  @Input() evenCount:number=0;
 
+ @Input() reset:boolean=false;
+
  
 
 
